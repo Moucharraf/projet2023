@@ -6,7 +6,7 @@
     android:layout_marginLeft="15dp"
     android:layout_marginRight="15dp"
     android:layout_marginBottom="15dp"
-    app:cardBackgroundColor="#512da8"
+    app:cardBackgroundColor="@color/white"
     app:cardCornerRadius="10dp"
     app:cardElevation="8dp">
         <LinearLayout
@@ -21,7 +21,7 @@
                 android:layout_width="109dp"
                 android:layout_height="85dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/douche">
+                android:src="@drawable/salon">
             </pl.droidsonroids.gif.GifImageView>
 
             <TextView
