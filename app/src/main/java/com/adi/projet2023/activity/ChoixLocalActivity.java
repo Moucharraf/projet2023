@@ -1,27 +1,20 @@
 package com.adi.projet2023.activity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ListView;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.navigation.ui.AppBarConfiguration;
+
+import com.adi.projet2023.R;
 import com.adi.projet2023.adapter.AdapterChoixLocal;
 import com.adi.projet2023.databinding.ActivityChoixLocalBinding;
 import com.adi.projet2023.model.local.AutreLocal;
 import com.adi.projet2023.model.local.Entreprise;
 import com.adi.projet2023.model.local.Local;
 import com.adi.projet2023.model.local.Maison;
-import com.adi.projet2023.model.local.TypeLocal;
 import com.google.android.material.snackbar.Snackbar;
-
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.view.View;
-import android.widget.ListView;
-
-import androidx.navigation.ui.AppBarConfiguration;
-
-
-import com.adi.projet2023.R;
-
-import org.checkerframework.checker.units.qual.A;
 
 import java.util.ArrayList;
 import java.util.List;
